@@ -1,0 +1,24 @@
+{
+  "name": "06-ecma-script",
+  "version": "1.0.0",
+  "description": "En esta ocasión se trabajará bajo las diferentes versiones que ha tenido JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "frontend"
+  ],
+  "author": "Anderson Daza <anderda-96@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script/issues"
+  },
+  "homepage": "https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script#readme"
+}
