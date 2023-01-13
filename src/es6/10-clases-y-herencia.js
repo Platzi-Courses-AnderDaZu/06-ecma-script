@@ -19,12 +19,27 @@ class Perro extends Animal {
         // el constructor de la clase padre
         super(name, genrer);
         this.tamanio = tamanio;
+        this.raza = null;
     }
     saludar(){
         console.log(`Soy un perro y mi sonido es ladrar`);
     }
     ladrar(){
         console.log(`Guauu guauuu!`);
+    }
+
+    // un método estatico se puede ejecutar son necesidad de instanciar la clase
+    static queEres(){
+        console.log(`Los perros son animales`);
+    }
+
+    // los setter y getters son métodos especiales que nos permiten
+    // establecer y obtener los valores de atributos de nuestra clase
+    get getRaza(){
+        return this.raza;
+    }
+    set setRaza(raza){
+        this.raza = raza;
     }
 }
 
@@ -36,3 +51,8 @@ console.log(mimi.saludar());
 
 console.log(scooby);
 console.log(scooby.saludar());
+console.log(scooby.getRaza);
+scooby.setRaza = 'Grán Danez'
+console.log(scooby.getRaza);
+
+Perro.queEres();
