@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script/issues"
   },
-  "homepage": "https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script#readme"
+  "homepage": "https://github.com/Platzi-Courses-AnderDaZu/06-ecma-script#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
